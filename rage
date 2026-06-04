@@ -544,28 +544,28 @@ misc.slowkey 0
 misc.slowspeed 30
 misc.straightthrow "On"
 misc.watermark "Off"
-rbot.accuracy "Scout"
-rbot.accuracy.asniper.adaptivedamage "On"
+rbot.accuracy "Heavy Pistol"
+rbot.accuracy.asniper.adaptivedamage "Off"
 rbot.accuracy.asniper.autowall "On"
 rbot.accuracy.asniper.hitchance 58
 rbot.accuracy.asniper.mindamage 99
-rbot.accuracy.hpistol.adaptivedamage "On"
+rbot.accuracy.hpistol.adaptivedamage "Off"
 rbot.accuracy.hpistol.autowall "On"
 rbot.accuracy.hpistol.hitchance 62
 rbot.accuracy.hpistol.mindamage 101
-rbot.accuracy.lmg.adaptivedamage "On"
+rbot.accuracy.lmg.adaptivedamage "Off"
 rbot.accuracy.lmg.autowall "On"
 rbot.accuracy.lmg.hitchance 50
 rbot.accuracy.lmg.mindamage 101
-rbot.accuracy.pistol.adaptivedamage "On"
+rbot.accuracy.pistol.adaptivedamage "Off"
 rbot.accuracy.pistol.autowall "On"
 rbot.accuracy.pistol.hitchance 60
 rbot.accuracy.pistol.mindamage 38
-rbot.accuracy.rifle.adaptivedamage "On"
+rbot.accuracy.rifle.adaptivedamage "Off"
 rbot.accuracy.rifle.autowall "On"
 rbot.accuracy.rifle.hitchance 61
 rbot.accuracy.rifle.mindamage 21
-rbot.accuracy.scout.adaptivedamage "On"
+rbot.accuracy.scout.adaptivedamage "Off"
 rbot.accuracy.scout.autowall "On"
 rbot.accuracy.scout.hitchance 57
 rbot.accuracy.scout.mindamage 101
@@ -577,11 +577,11 @@ rbot.accuracy.shotgun.adaptivedamage "On"
 rbot.accuracy.shotgun.autowall "On"
 rbot.accuracy.shotgun.hitchance 50
 rbot.accuracy.shotgun.mindamage 38
-rbot.accuracy.smg.adaptivedamage "On"
+rbot.accuracy.smg.adaptivedamage "Off"
 rbot.accuracy.smg.autowall "On"
 rbot.accuracy.smg.hitchance 50
 rbot.accuracy.smg.mindamage 39
-rbot.accuracy.sniper.adaptivedamage "On"
+rbot.accuracy.sniper.adaptivedamage "Off"
 rbot.accuracy.sniper.autowall "On"
 rbot.accuracy.sniper.hitchance 60
 rbot.accuracy.sniper.mindamage 101
@@ -603,7 +603,7 @@ rbot.antiaim.yaw "Spin"
 rbot.antiaim.yawoffset 0
 rbot.antirecoil "On"
 rbot.antispread "On"
-rbot.auto "Scout"
+rbot.auto "Heavy Pistol"
 rbot.auto.asniper.scopeopts.scope "On"
 rbot.auto.asniper.scopeopts.unscope "Off"
 rbot.auto.asniper.stopopts.betweenshots "Off"
@@ -675,7 +675,7 @@ rbot.doubletap "Off"
 rbot.duckpeek 18
 rbot.enable "On"
 rbot.fov 180
-rbot.hitbox "Scout"
+rbot.hitbox "Heavy Pistol"
 rbot.hitbox.asniper.body.center "Off"
 rbot.hitbox.asniper.body.exposed "Off"
 rbot.hitbox.asniper.body.lethal "On"
@@ -686,14 +686,14 @@ rbot.hitbox.asniper.head.priority "On"
 rbot.hitbox.asniper.limbs.center "On"
 rbot.hitbox.asniper.limbs.exposed "Off"
 rbot.hitbox.hpistol.body.center "Off"
-rbot.hitbox.hpistol.body.exposed "Off"
+rbot.hitbox.hpistol.body.exposed "On"
 rbot.hitbox.hpistol.body.lethal "On"
 rbot.hitbox.hpistol.body.priority "Off"
 rbot.hitbox.hpistol.head.center "Off"
-rbot.hitbox.hpistol.head.exposed "Off"
+rbot.hitbox.hpistol.head.exposed "On"
 rbot.hitbox.hpistol.head.priority "On"
-rbot.hitbox.hpistol.limbs.center "On"
-rbot.hitbox.hpistol.limbs.exposed "Off"
+rbot.hitbox.hpistol.limbs.center "Off"
+rbot.hitbox.hpistol.limbs.exposed "On"
 rbot.hitbox.lmg.body.center "Off"
 rbot.hitbox.lmg.body.exposed "On"
 rbot.hitbox.lmg.body.lethal "On"
@@ -713,7 +713,7 @@ rbot.hitbox.pistol.head.priority "On"
 rbot.hitbox.pistol.limbs.center "Off"
 rbot.hitbox.pistol.limbs.exposed "Off"
 rbot.hitbox.rifle.body.center "Off"
-rbot.hitbox.rifle.body.exposed "Off"
+rbot.hitbox.rifle.body.exposed "On"
 rbot.hitbox.rifle.body.lethal "On"
 rbot.hitbox.rifle.body.priority "Off"
 rbot.hitbox.rifle.head.center "Off"
@@ -853,7 +853,7 @@ world.smokeoverride.t 255 85 0 255
 world.snipercrosshair "On"
 world.suncolor "On"
 world.suncolor.clr 255 255 255 255
-world.thirdperson "On"
+world.thirdperson "Off"
 world.thirdpersondist 150
 world.viewmodelfov 54
 world.visualize "On"
