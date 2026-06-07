@@ -7,7 +7,7 @@ adv.hints "On"
 adv.menukey 120
 adv.opacity 75
 adv.theme "Dark"
-bind 444 254
+bind 831 411
 con 100 100
 esp.enemy.ammo.anchor 1
 esp.enemy.ammo.clr1 0 136 236 255
@@ -181,7 +181,7 @@ esp.weapon.box.enable "Off"
 esp.weapon.box.style "Thin Line"
 esp.weapon.c4timer.enable "On"
 esp.weapon.defuser.enable "On"
-esp.weapon.model.glow "Off"
+esp.weapon.model.glow "On"
 esp.weapon.model.glow.clr 255 255 255 150
 esp.weapon.model.occluded "Off"
 esp.weapon.model.occluded.clr 102 152 46 255
@@ -544,7 +544,7 @@ misc.slowkey 0
 misc.slowspeed 30
 misc.straightthrow "On"
 misc.watermark "Off"
-rbot.accuracy "Heavy Pistol"
+rbot.accuracy "Pistol"
 rbot.accuracy.asniper.adaptivedamage "Off"
 rbot.accuracy.asniper.autowall "On"
 rbot.accuracy.asniper.hitchance 58
@@ -556,11 +556,11 @@ rbot.accuracy.hpistol.mindamage 101
 rbot.accuracy.lmg.adaptivedamage "Off"
 rbot.accuracy.lmg.autowall "On"
 rbot.accuracy.lmg.hitchance 50
-rbot.accuracy.lmg.mindamage 101
+rbot.accuracy.lmg.mindamage 50
 rbot.accuracy.pistol.adaptivedamage "Off"
 rbot.accuracy.pistol.autowall "On"
 rbot.accuracy.pistol.hitchance 60
-rbot.accuracy.pistol.mindamage 38
+rbot.accuracy.pistol.mindamage 30
 rbot.accuracy.rifle.adaptivedamage "Off"
 rbot.accuracy.rifle.autowall "On"
 rbot.accuracy.rifle.hitchance 61
@@ -593,7 +593,7 @@ rbot.antiaim.enabled "On"
 rbot.antiaim.mouseaa "On"
 rbot.antiaim.mouseaa.clr1 222 107 87 255
 rbot.antiaim.mouseaa.clr2 107 222 87 255
-rbot.antiaim.mouseaa.key 88
+rbot.antiaim.mouseaa.key 0
 rbot.antiaim.mouseaa.sens 50
 rbot.antiaim.pitch "Up"
 rbot.antiaim.silentactions "Off"
@@ -603,7 +603,7 @@ rbot.antiaim.yaw "Spin"
 rbot.antiaim.yawoffset 0
 rbot.antirecoil "On"
 rbot.antispread "On"
-rbot.auto "Heavy Pistol"
+rbot.auto "Pistol"
 rbot.auto.asniper.scopeopts.scope "On"
 rbot.auto.asniper.scopeopts.unscope "Off"
 rbot.auto.asniper.stopopts.betweenshots "Off"
@@ -675,7 +675,7 @@ rbot.doubletap "Off"
 rbot.duckpeek 18
 rbot.enable "On"
 rbot.fov 180
-rbot.hitbox "Heavy Pistol"
+rbot.hitbox "Rifle"
 rbot.hitbox.asniper.body.center "Off"
 rbot.hitbox.asniper.body.exposed "Off"
 rbot.hitbox.asniper.body.lethal "On"
@@ -683,8 +683,8 @@ rbot.hitbox.asniper.body.priority "Off"
 rbot.hitbox.asniper.head.center "Off"
 rbot.hitbox.asniper.head.exposed "Off"
 rbot.hitbox.asniper.head.priority "On"
-rbot.hitbox.asniper.limbs.center "On"
-rbot.hitbox.asniper.limbs.exposed "Off"
+rbot.hitbox.asniper.limbs.center "Off"
+rbot.hitbox.asniper.limbs.exposed "On"
 rbot.hitbox.hpistol.body.center "Off"
 rbot.hitbox.hpistol.body.exposed "On"
 rbot.hitbox.hpistol.body.lethal "On"
@@ -694,11 +694,11 @@ rbot.hitbox.hpistol.head.exposed "On"
 rbot.hitbox.hpistol.head.priority "On"
 rbot.hitbox.hpistol.limbs.center "Off"
 rbot.hitbox.hpistol.limbs.exposed "On"
-rbot.hitbox.lmg.body.center "Off"
+rbot.hitbox.lmg.body.center "On"
 rbot.hitbox.lmg.body.exposed "On"
 rbot.hitbox.lmg.body.lethal "On"
 rbot.hitbox.lmg.body.priority "Off"
-rbot.hitbox.lmg.head.center "Off"
+rbot.hitbox.lmg.head.center "On"
 rbot.hitbox.lmg.head.exposed "Off"
 rbot.hitbox.lmg.head.priority "On"
 rbot.hitbox.lmg.limbs.center "Off"
@@ -779,7 +779,7 @@ rbot.knife "Quick Stab"
 rbot.master "On"
 rbot.selection "Closest To Crosshair"
 rbot.silentaim "On"
-spectators 507 200
+spectators 483 150
 world.ambiencemenu "On"
 world.bullettracer.enemy "Off"
 world.bullettracer.enemy.clr 240 60 30 255
@@ -855,7 +855,7 @@ world.suncolor "On"
 world.suncolor.clr 255 255 255 255
 world.thirdperson "Off"
 world.thirdpersondist 150
-world.viewmodelfov 54
+world.viewmodelfov 62
 world.visualize "On"
 world.visualize.clr 255 0 0 255
 world.wallbanginfo.circle "Off"
@@ -891,4 +891,6 @@ bindtoggle "Mouse4" rbot.doubletap "Off" "On" 0
 bindhold "Mouse5" rbot.accuracy.sniper.mindamage "101" "10" 0
 bindhold "Mouse5" rbot.accuracy.asniper.mindamage "99" "7" 1
 bindhold "Mouse5" rbot.accuracy.scout.mindamage "101" "7" 2
+bindhold "Mouse5" rbot.accuracy.pistol.mindamage "30" "8" 3
+bindhold "Mouse5" rbot.accuracy.hpistol.mindamage "101" "8" 4
 unalias
